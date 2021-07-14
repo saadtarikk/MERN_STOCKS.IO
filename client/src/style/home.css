@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.portfolio-value-container {
+    grid-row: 1;
+    grid-column: 1 / 4;
+}
+
+.news-feed-container {
+    grid-row: 2;
+    grid-column: 1 / 2   
+}
+
+.home-profile-container {
+    grid-row: 2;
+    grid-column: 2 / 4;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: darkgray;
+}
